@@ -19,7 +19,7 @@ export const LeftSide: NextPage = () => {
       </div>
       <div className='flex justify-center -mt-12 md:-mt-24'>
         <Image
-          src="/assets/avatar.jpg"
+          src="/assets/25-05-09 02-23-43 at_2.png"
           alt='avatar img'
           width={0}
           height={0}

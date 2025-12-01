@@ -3,8 +3,6 @@ import "./globals.css";
 import { Zen_Maru_Gothic } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
-import { Suspense } from "react";
-import LoadingScreen from "@/features/loading";
 
 const font = Zen_Maru_Gothic({
   weight: "400",

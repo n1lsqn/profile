@@ -12,7 +12,7 @@ const font = Zen_Maru_Gothic({
 })
 
 export const metadata: Metadata = {
-  title: "Sea Slug",
+  title: "にる / n1lsqn",
   description: "にるのプロフィールサイト的なやつ！！",
 };
 

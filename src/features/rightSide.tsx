@@ -38,6 +38,8 @@ export const RightSide: NextPage = () => {
         </a>
         手伝ったりしてます。ぜひぜひ～！！
       </p>
+      <br />
+      <p className='mb-3 text-lg md:text-base text-[#212121]'>このようなサイトを制作しております、もし依頼したいよ～という方はDMやメールまで！</p>
     </div>
   );
 };

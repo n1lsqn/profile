@@ -11,8 +11,6 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.4.1",
-    "@vercel/speed-insights": "^1.1.0",
     "biome": "^0.3.3",
     "inquirer": "^12.4.1",
     "lodash": "^4.17.21",

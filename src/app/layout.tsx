@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Zen_Maru_Gothic } from 'next/font/google'
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/next";
 
 const font = Zen_Maru_Gothic({
   weight: "400",
@@ -23,8 +21,6 @@ export default function RootLayout({
 		<html lang='en'>
 			<body className={`${font.className} antialiased`}>
 				{children}
-				<SpeedInsights />
-				<Analytics />
 			</body>
 		</html>
 	);

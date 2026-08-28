@@ -4,9 +4,9 @@ import { RightSide } from "@/features/rightSide";
 const Home = () => {
   return (
     <div className="bg-[url('/assets/bg_blur.webp')] bg-cover flex flex-col justify-center items-center min-h-screen p-4">
-      <div className="w-full max-w-4xl flex flex-col md:flex-row shadow-2xl rounded-xl overflow-hidden">
+      <div className="w-full max-w-4xl flex flex-col md:flex-row shadow-2xl rounded-xl overflow-hidden bg-white/90 backdrop-blur-md border border-white/20 transition-all duration-500 ease-out hover:scale-[1.01] hover:shadow-[0_25px_60px_-15px_rgba(0,0,0,0.3)] animate-fade-in-up">
         <LeftSide />
-        <div className="border-t border-gray-100 md:border-t-0 md:border-l"></div>
+        <div className="border-t border-white/20 md:border-t-0 md:border-l"></div>
         <RightSide />
       </div>
     </div>

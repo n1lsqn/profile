@@ -45,7 +45,7 @@ export const LeftSide: NextPage = () => {
       <div className="pt-20 md:pt-32 text-center text-2xl md:text-3xl text-[#212121]">
         にる / @n1lsqn
       </div>
-      <div className="flex flex-row gap-4 justify-center mt-10 md:mt-48 mb-8 md:mb-16 px-4">
+      <div className="flex flex-row gap-2.5 sm:gap-4 justify-center items-center flex-nowrap mt-10 md:mt-48 mb-8 md:mb-16 px-2 sm:px-4">
         <a
           href="https://twitter.com/n1lsqn"
           target="_blank"

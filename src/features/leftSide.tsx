@@ -9,7 +9,7 @@ import { SiVrchat } from 'react-icons/si';
 export const LeftSide: NextPage = () => {
   const [showTooltip, setShowTooltip] = useState(false);
 
-  const handleCopyEmail = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleCopyEmail = () => {
     navigator.clipboard.writeText('owner@n1l.dev');
     setShowTooltip(true);
     setTimeout(() => {

@@ -61,9 +61,6 @@ export const RightSide: NextPage = () => {
             <span>NOWA_shop</span>
             <span className='text-xs opacity-80'>↗</span>
           </a>
-          <span className='text-sm text-gray-500 dark:text-slate-400 ml-1 transition-colors duration-500'>
-            の制作をお手伝いしています
-          </span>
         </div>
       </div>
 

@@ -28,7 +28,7 @@ export const RightSide: NextPage = () => {
           </a>
           {' '}と{' '}
           <a 
-            href='https://nanka-tsukurouyo.booth.pm/items/5787485' 
+            href='https://booth.pm/ja/items/7543853' 
             className='text-[#01689A] hover:underline font-medium'
             target='_blank' 
             rel='noopener noreferrer'

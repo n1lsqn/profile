@@ -9,7 +9,7 @@ const Home = () => {
         <div className="border-t border-purple-500/10 md:border-t-0 md:border-l"></div>
         <RightSide />
       </div>
-      <p className="mt-6 text-xs text-purple-950/40 font-medium tracking-wider select-none animate-fade-in-up [animation-delay:200ms]">
+      <p className="mt-6 text-xs text-white/60 font-medium tracking-wider select-none animate-fade-in-up [animation-delay:200ms]">
         © 2024 - 2026 にる / n1lsqn
       </p>
     </div>

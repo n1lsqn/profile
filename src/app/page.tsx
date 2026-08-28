@@ -10,7 +10,7 @@ const Home = () => {
         <RightSide />
       </div>
       <p className="mt-6 text-xs text-white/60 font-medium tracking-wider select-none animate-fade-in-up [animation-delay:200ms]">
-        © 2024 - 2026 にる / n1lsqn
+        © 2024 - 2026 にる / n1lsqn. All Rights Reserved.
       </p>
     </div>
   )

@@ -1,12 +1,15 @@
-"use client";
-
 import { NextPage } from 'next';
 import Image from 'next/image';
 import { useState } from 'react';
-import { CiMail, CiShoppingCart, CiTwitter } from 'react-icons/ci';
+import { CiMail, CiShoppingCart, CiTwitter, CiSun, CiMoon } from 'react-icons/ci';
 import { SiGithub, SiVrchat } from 'react-icons/si';
 
-export const LeftSide: NextPage = () => {
+interface LeftSideProps {
+  theme: 'light' | 'dark';
+  toggleTheme: () => void;
+}
+
+export const LeftSide: NextPage<LeftSideProps> = ({ theme, toggleTheme }) => {
   const [showTooltip, setShowTooltip] = useState(false);
 
   const handleCopyEmail = () => {
@@ -19,6 +22,18 @@ export const LeftSide: NextPage = () => {
 
   return (
     <div className='relative w-full md:w-1/2'>
+      {/* Theme Toggle Button */}
+      <button
+        onClick={toggleTheme}
+        className="absolute top-4 right-4 z-20 p-2.5 rounded-full bg-white/20 dark:bg-black/30 backdrop-blur-md border border-white/30 dark:border-white/10 text-slate-800 dark:text-slate-200 transition-all duration-300 hover:scale-110 active:scale-95 hover:bg-white/40 dark:hover:bg-black/50 cursor-pointer shadow-sm"
+        title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+      >
+        {theme === 'light' ? (
+          <CiMoon className="w-5 h-5 md:w-6 md:h-6" />
+        ) : (
+          <CiSun className="w-5 h-5 md:w-6 md:h-6 text-amber-400" />
+        )}
+      </button>
       <div className='relative w-full aspect-[3/1] overflow-hidden'>
         <Image
           src="/assets/banner.webp"

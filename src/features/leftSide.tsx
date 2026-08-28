@@ -1,7 +1,8 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
 import { useState } from 'react';
-import { CiMail, CiShoppingCart, CiTwitter, CiSun, CiMoon } from 'react-icons/ci';
+import { CiMail, CiShoppingCart, CiTwitter } from 'react-icons/ci';
+import { FaSun, FaMoon } from 'react-icons/fa';
 import { SiGithub, SiVrchat } from 'react-icons/si';
 
 interface LeftSideProps {
@@ -29,9 +30,9 @@ export const LeftSide: NextPage<LeftSideProps> = ({ theme, toggleTheme }) => {
         title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
       >
         {theme === 'light' ? (
-          <CiMoon className="w-5 h-5 md:w-6 md:h-6" />
+          <FaMoon className="w-4 h-4 md:w-5 md:h-5 text-indigo-950 dark:text-slate-200" />
         ) : (
-          <CiSun className="w-5 h-5 md:w-6 md:h-6 text-amber-400" />
+          <FaSun className="w-4 h-4 md:w-5 md:h-5 text-amber-400" />
         )}
       </button>
       <div className='relative w-full aspect-[3/1] overflow-hidden'>

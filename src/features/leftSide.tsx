@@ -1,14 +1,14 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
-import { CiMail, CiTwitter } from 'react-icons/ci';
+import { CiMail, CiShoppingCart, CiTwitter } from 'react-icons/ci';
 import { SiVrchat } from 'react-icons/si';
 
 export const LeftSide: NextPage = () => {
   return (
-    <div className='relative bg-white rounded-t-xl rounded-bl-none md:rounded-tl-xl md:rounded-bl-xl w-full md:w-1/2'>
-      <div className='relative w-full aspect-[3/1] rounded-t-xl md:rounded-tl-xl overflow-hidden'>
+    <div className='relative bg-white w-full md:w-1/2'>
+      <div className='relative w-full aspect-[3/1] overflow-hidden'>
         <Image
-          src="/assets/banner.png"
+          src="/assets/banner.webp"
           alt='banner'
           fill
           className='object-cover'
@@ -48,6 +48,14 @@ export const LeftSide: NextPage = () => {
           className="rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors"
         >
           <SiVrchat className="w-10 h-10 md:w-12 md:h-12 text-[#212121]" />
+        </a>
+        <a
+          href="https://vyra.booth.pm/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-colors"
+        >
+          <CiShoppingCart className="w-10 h-10 md:w-12 md:h-12 text-[#212121]" />
         </a>
         <a
           href="mailto:owner@n1l.dev"

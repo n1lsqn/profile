@@ -11,9 +11,9 @@ export default function LoadingScreen() {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    preload('/assets/banner.png');
+    preload('/assets/banner.webp');
     preload('/assets/25-05-09 02-23-43 at_2.png');
-    preload('/assets/bg_blur.png');
+    preload('/assets/bg_blur.webp');
 
     const timer = setTimeout(() => setFadeOut(true), 400);
     return () => clearTimeout(timer);
@@ -23,7 +23,7 @@ export default function LoadingScreen() {
     <div
       className={`
         fixed inset-0 z-[9999] flex items-center justify-center
-        bg-[url('/assets/bg_blur.png')] bg-cover backdrop-blur-xl
+        bg-[url('/assets/bg_blur.webp')] bg-cover backdrop-blur-xl
         transition-opacity duration-500
         ${fadeOut ? 'opacity-0 pointer-events-none' : 'opacity-100'}
       `}

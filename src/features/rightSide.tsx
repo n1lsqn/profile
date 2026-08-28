@@ -54,7 +54,7 @@ export const RightSide: NextPage = () => {
         <div className='flex flex-wrap gap-2 items-center'>
           <a 
             href='https://nogiwa.booth.pm/' 
-            className='inline-flex items-center gap-1.5 px-3 py-1.5 bg-violet-600 text-white rounded-full text-sm font-medium shadow-sm transition-all hover:bg-violet-700 hover:scale-105 active:scale-95'
+            className='inline-flex items-center gap-1.5 px-3 py-1 bg-violet-50 text-violet-600 rounded-full text-sm font-medium border border-violet-100 transition-all hover:bg-violet-100 hover:border-violet-200 hover:scale-105 active:scale-95'
             target='_blank' 
             rel='noopener noreferrer'
           >

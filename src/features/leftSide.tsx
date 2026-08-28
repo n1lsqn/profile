@@ -4,7 +4,7 @@ import { NextPage } from 'next';
 import Image from 'next/image';
 import { useState } from 'react';
 import { CiMail, CiShoppingCart, CiTwitter } from 'react-icons/ci';
-import { SiVrchat } from 'react-icons/si';
+import { SiGithub, SiVrchat } from 'react-icons/si';
 
 export const LeftSide: NextPage = () => {
   const [showTooltip, setShowTooltip] = useState(false);
@@ -69,6 +69,14 @@ export const LeftSide: NextPage = () => {
           className="rounded-full border p-1.5 hover:border-purple-500 hover:bg-purple-50/50 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
         >
           <CiShoppingCart className="w-10 h-10 md:w-12 md:h-12 text-[#212121]" />
+        </a>
+        <a
+          href="https://github.com/n1lsqn"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full border p-1.5 hover:border-purple-500 hover:bg-purple-50/50 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
+        >
+          <SiGithub className="w-10 h-10 md:w-12 md:h-12 text-[#212121]" />
         </a>
         <div className="relative">
           <button

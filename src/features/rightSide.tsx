@@ -51,17 +51,20 @@ export const RightSide: NextPage = () => {
         </div>
 
         <p className='mb-2 text-xs font-semibold tracking-wider text-gray-400 uppercase'>Works</p>
-        <p className='text-base text-[#212121] leading-relaxed'>
+        <div className='flex flex-wrap gap-2 items-center'>
           <a 
             href='https://nogiwa.booth.pm/' 
-            className='text-violet-600 hover:text-violet-800 hover:underline font-medium'
+            className='inline-flex items-center gap-1.5 px-3 py-1.5 bg-violet-600 text-white rounded-full text-sm font-medium shadow-sm transition-all hover:bg-violet-700 hover:scale-105 active:scale-95'
             target='_blank' 
             rel='noopener noreferrer'
           >
-            NOWA_shop
+            <span>NOWA_shop</span>
+            <span className='text-xs opacity-80'>↗</span>
           </a>
-          の制作をお手伝いしたりしています。ぜひぜひ～！！
-        </p>
+          <span className='text-sm text-gray-500 ml-1'>
+            の制作をお手伝いしています
+          </span>
+        </div>
       </div>
 
       <div className='mt-8 pt-6 border-t border-black/5'>

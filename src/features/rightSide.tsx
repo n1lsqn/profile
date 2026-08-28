@@ -20,7 +20,7 @@ export const RightSide: NextPage = () => {
           アバターは{' '}
           <a 
             href='https://nanka-tsukurouyo.booth.pm/items/5787485' 
-            className='text-[#01689A] hover:underline font-medium'
+            className='text-violet-600 hover:text-violet-800 hover:underline font-medium'
             target='_blank' 
             rel='noopener noreferrer'
           >
@@ -29,7 +29,7 @@ export const RightSide: NextPage = () => {
           {' '}と{' '}
           <a 
             href='https://booth.pm/ja/items/7543853' 
-            className='text-[#01689A] hover:underline font-medium'
+            className='text-violet-600 hover:text-violet-800 hover:underline font-medium'
             target='_blank' 
             rel='noopener noreferrer'
           >
@@ -43,7 +43,7 @@ export const RightSide: NextPage = () => {
           {likes.map((like) => (
             <span 
               key={like} 
-              className='px-3 py-1 bg-[#01689A]/10 text-[#01689A] rounded-full text-sm font-medium border border-[#01689A]/20 transition-all hover:bg-[#01689A]/20'
+              className='px-3 py-1 bg-violet-50 text-violet-600 rounded-full text-sm font-medium border border-violet-100 transition-all hover:bg-violet-100 hover:border-violet-200'
             >
               {like}
             </span>
@@ -54,7 +54,7 @@ export const RightSide: NextPage = () => {
         <p className='text-base text-[#212121] leading-relaxed'>
           <a 
             href='https://nogiwa.booth.pm/' 
-            className='text-[#01689A] hover:underline font-medium'
+            className='text-violet-600 hover:text-violet-800 hover:underline font-medium'
             target='_blank' 
             rel='noopener noreferrer'
           >

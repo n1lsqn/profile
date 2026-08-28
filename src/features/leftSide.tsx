@@ -50,7 +50,7 @@ export const LeftSide: NextPage = () => {
           href="https://twitter.com/n1lsqn"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
+          className="rounded-full border p-1.5 hover:border-purple-500 hover:bg-purple-50/50 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
         >
           <CiTwitter className="w-10 h-10 md:w-12 md:h-12 text-[#212121]" />
         </a>
@@ -58,7 +58,7 @@ export const LeftSide: NextPage = () => {
           href="https://vrchat.com/home/user/usr_22e0ade6-5183-42a8-b9fa-0c31ad47887e"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
+          className="rounded-full border p-1.5 hover:border-purple-500 hover:bg-purple-50/50 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
         >
           <SiVrchat className="w-10 h-10 md:w-12 md:h-12 text-[#212121]" />
         </a>
@@ -66,14 +66,14 @@ export const LeftSide: NextPage = () => {
           href="https://vyra.booth.pm/"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
+          className="rounded-full border p-1.5 hover:border-purple-500 hover:bg-purple-50/50 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
         >
           <CiShoppingCart className="w-10 h-10 md:w-12 md:h-12 text-[#212121]" />
         </a>
         <div className="relative">
           <button
             onClick={handleCopyEmail}
-            className="rounded-full border p-1.5 hover:border-[#111734] hover:bg-gray-100 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95 cursor-pointer"
+            className="rounded-full border p-1.5 hover:border-purple-500 hover:bg-purple-50/50 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95 cursor-pointer"
             title="Click to copy email address"
           >
             <CiMail className="w-10 h-10 md:w-12 md:h-12 text-[#212121]" />

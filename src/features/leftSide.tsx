@@ -68,7 +68,7 @@ export const LeftSide: NextPage<LeftSideProps> = ({ theme, toggleTheme }) => {
           href="https://twitter.com/n1lsqn"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
+          className="inline-flex items-center justify-center rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
         >
           <CiTwitter className="w-10 h-10 md:w-12 md:h-12 text-[#212121] dark:text-slate-200" />
         </a>
@@ -76,7 +76,7 @@ export const LeftSide: NextPage<LeftSideProps> = ({ theme, toggleTheme }) => {
           href="https://vrchat.com/home/user/usr_22e0ade6-5183-42a8-b9fa-0c31ad47887e"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
+          className="inline-flex items-center justify-center rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
         >
           <SiVrchat className="w-10 h-10 md:w-12 md:h-12 text-[#212121] dark:text-slate-200" />
         </a>
@@ -84,7 +84,7 @@ export const LeftSide: NextPage<LeftSideProps> = ({ theme, toggleTheme }) => {
           href="https://vyra.booth.pm/"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
+          className="inline-flex items-center justify-center rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
         >
           <CiShoppingCart className="w-10 h-10 md:w-12 md:h-12 text-[#212121] dark:text-slate-200" />
         </a>
@@ -92,14 +92,14 @@ export const LeftSide: NextPage<LeftSideProps> = ({ theme, toggleTheme }) => {
           href="https://github.com/n1lsqn"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
+          className="inline-flex items-center justify-center rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95"
         >
           <SiGithub className="w-10 h-10 md:w-12 md:h-12 text-[#212121] dark:text-slate-200" />
         </a>
-        <div className="relative">
+        <div className="relative inline-flex">
           <button
             onClick={handleCopyEmail}
-            className="rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95 cursor-pointer"
+            className="inline-flex items-center justify-center rounded-full border border-gray-200 dark:border-slate-800 p-1.5 hover:border-purple-500 hover:bg-purple-50/50 dark:hover:bg-purple-950/30 transition-all duration-300 hover:scale-110 hover:-translate-y-1 active:scale-95 cursor-pointer"
             title="Click to copy email address"
           >
             <CiMail className="w-10 h-10 md:w-12 md:h-12 text-[#212121] dark:text-slate-200" />

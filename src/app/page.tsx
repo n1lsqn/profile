@@ -27,6 +27,8 @@ const Home = () => {
     document.documentElement.classList.toggle("dark", nextTheme === "dark");
   };
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="bg-[url('/assets/bg_blur.webp')] bg-cover flex flex-col justify-center items-center min-h-screen p-4 relative before:absolute before:inset-0 before:bg-black/0 dark:before:bg-black/40 before:pointer-events-none before:transition-colors before:duration-500">
       <div className="w-full max-w-4xl flex flex-col md:flex-row shadow-2xl rounded-xl overflow-hidden bg-white/90 dark:bg-slate-950/85 backdrop-blur-md border border-purple-500/20 dark:border-purple-500/10 transition-all duration-500 ease-out hover:scale-[1.01] hover:shadow-[0_25px_60px_-15px_rgba(124,58,237,0.25)] dark:hover:shadow-[0_25px_60px_-15px_rgba(168,85,247,0.15)] animate-fade-in-up z-10">
@@ -35,7 +37,7 @@ const Home = () => {
         <RightSide />
       </div>
       <p className="mt-6 text-xs text-white/60 font-medium tracking-wider select-none animate-fade-in-up [animation-delay:200ms]">
-        © 2024 - 2026 にる / n1lsqn. All Rights Reserved.
+        © 2024 - {currentYear} にる / n1lsqn. All Rights Reserved.
       </p>
     </div>
   )
